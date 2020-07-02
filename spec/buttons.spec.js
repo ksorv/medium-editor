@@ -591,7 +591,7 @@ describe('Buttons TestCase', function () {
                 }),
                 toolbar = editor.getExtensionByName('toolbar'),
                 button = toolbar.getToolbarElement().querySelector('[data-action="strikethrough"]');
-            this.el.innerHTML = '<s>lorem ipsum</s>';
+            this.el.innerHTML = '<strike>lorem ipsum</strike>';
 
             selectElementContentsAndFire(editor.elements[0]);
             expect(button.classList.contains('medium-editor-button-active')).toBe(true);
@@ -611,7 +611,7 @@ describe('Buttons TestCase', function () {
                 button = toolbar.getToolbarElement().querySelector('[data-action="strikethrough"]');
 
             spyOn(document, 'queryCommandState').and.throwError('DOM ERROR');
-            this.el.innerHTML = '<s><b><i>lorem ipsum</i></b></s>';
+            this.el.innerHTML = '<strike><b><i>lorem ipsum</i></b></strike>';
 
             selectElementContentsAndFire(editor.elements[0].querySelector('i'));
             expect(button.classList.contains('medium-editor-button-active')).toBe(true);

@@ -13,4 +13,5 @@ coverage/
 
 # IDE
 .idea/
+.history/
 package-lock.json
