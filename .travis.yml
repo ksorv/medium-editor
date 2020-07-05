@@ -32,4 +32,4 @@ addons:
 env:
     global:
         SAUCE_USERNAME: 'mediumeditor'
-        SAUCE_API_KEY: '714bc135-e615-453a-bb59-0a52e5cd9917'
+        SAUCE_ACCESS_KEY: '714bc135-e615-453a-bb59-0a52e5cd9917'
