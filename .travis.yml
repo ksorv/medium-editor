@@ -31,5 +31,5 @@ addons:
 
 env:
     global:
-        - secure: uSn+psGGU4v96aLw3egOywFLaZ1nAjwzbwpn/yUWXanPllHi7LZIe4tY41GfrE4CmD+brAQFRPkuxUnk5uOdtnwLPo5eSg/NAWEIVws2/UnPisr63YopB/LTLP9NqcUklZ8IsE3gcXrhMZWJBm5wfXj9pO+182zp6XHzID1yDAE=
-        - secure: On1IPA/AVPSJitzCK8XfYuYRJDi2/jNEP2Wux8S2L/AvmAQ0tUQN7ivxgoyZUb9Bez6OkxfFSDBsrIR3p7MiSIIZSPOD55/QiJyUtmH25WuIcrjyytaCEvNv2OeCNwS2EGQe0ToxdwRCCqBPJRLJTMyuvlnSkAKmKPPfdXjcCOM=
+        SAUCE_USERNAME: 'mediumeditor'
+        SAUCE_API_KEY: '714bc135-e615-453a-bb59-0a52e5cd9917'
