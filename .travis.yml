@@ -25,11 +25,3 @@ before_script:
 
 script:
     - npm run test:ci
-
-addons:
-    sauce_connect: false 
-
-env:
-    global:
-        - SAUCE_USERNAME: 'mediumeditor'
-        - SAUCE_ACCESS_KEY: '714bc135-e615-453a-bb59-0a52e5cd9917'
