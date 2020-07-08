@@ -397,50 +397,10 @@ module.exports = function (grunt) {
             'src/js/defaults/options.js',
             'src/js/version.js'
         ],
-        // browsers = [{
-        //     browserName: 'internet explorer',
-        //     version: '9',
-        //     platform: 'WIN7'
-        // }, {
-        //     browserName: 'internet explorer',
-        //     version: '10',
-        //     platform: 'WIN8'
-        // }, {
-        //     browserName: 'internet explorer',
-        //     version: '11',
-        //     platform: 'WIN8.1'
-        // }, {
-        //     browserName: 'internet explorer',
-        //     version: '11',
-        //     platform: 'Windows 10'
-        // }, {
-        //     browserName: 'MicrosoftEdge',
-        //     platform: 'Windows 10'
-        // }, {
-        //     browserName: 'chrome',
-        //     platform: 'WIN8.1'
-        // }, {
-        //     browserName: 'chrome',
-        //     platform: 'Windows 10'
-        // }, {
-        //     browserName: 'googlechrome',
-        //     platform: 'OS X 10.11'
-        // }, {
-        //     browserName: 'firefox',
-        //     platform: 'WIN8.1'
-        // }, {
-        //     browserName: 'firefox',
-        //     platform: 'Windows 10'
-        // }, {
-        //     browserName: 'firefox',
-        //     platform: 'OS X 10.11'
-        // }, {
-        //     browserName: 'safari',
-        //     platform: 'OS X 10.10'
-        // }, {
-        //     browserName: 'safari',
-        //     platform: 'OS X 10.11'
-        // }];
+        browsers = [{
+            browserName: 'chrome',
+            platform: 'Windows 10'
+        }];
 
     gruntConfig.connect = {
         server: {
