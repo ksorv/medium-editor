@@ -617,10 +617,7 @@ module.exports = function (grunt) {
                 tunnelTimeout: 5,
                 build: process.env.TRAVIS_JOB_ID,
                 concurrency: 3,
-                browsers: [{
-                    browserName: 'chrome',
-                    platform: 'Windows 10'
-                }],
+                browsers: browsers,
                 sauceConfig: {
                     public: 'public',
                     build: process.env.TRAVIS_JOB_ID,
