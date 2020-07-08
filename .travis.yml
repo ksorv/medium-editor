@@ -27,7 +27,7 @@ script:
     - npm run test:ci
 
 addons:
-    sauce_connect: true
+    sauce_connect: false 
 
 env:
     global:
